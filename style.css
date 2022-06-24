@@ -12,7 +12,7 @@
 
 *{
     box-sizing: border-box;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body{
@@ -25,7 +25,7 @@ body{
     background-color: var(--White);    
     height: 45%;    
     width: 45%;    
-    margin: 10% auto;
+    margin: 10% auto 5% auto;
     
     border-radius: 10px;
 
@@ -34,11 +34,11 @@ body{
 .column1{
     width: 50%;
     
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .column2{
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     align-content: center;
     padding: 1rem 2rem;
 }
@@ -63,7 +63,29 @@ body{
     font-family: "Montserrat";
     font-weight: 500;
     font-size: 1rem;
-    opacity: 70%;
+    opacity: 60%;
+}
+.preview{
+    letter-spacing: 0.5rem;
+}
+.button{
+    display: flex;
+    width: 100%;
+}
+
+button{
+    
+    align-self: center;
+    background-color: var(--DarkCyan);
+    color:var(--White);
+    font-size: 1rem;
+    border: 0;
+    
+    padding: 1rem 5rem;
+    margin: 2rem auto 1rem auto;
+    
+    border-radius: 10px;
+
 }
 
 
