@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+:root {
+    /*Primary*/
+    --DarkCyan: hsl(158, 36%, 37%);
+    ---Cream: hsl(30, 38%, 92%);
+    /*Neutral*/
+    --DarkBlue: hsl(212, 21%, 14%);
+    --GrayishBlue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+
+  }
+
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    font-size: 14px;
+    background-color: var(---Cream);
+}
+
+.card{
+    display: flex;
+    background-color: var(--White);    
+    height: 45%;    
+    width: 45%;    
+    margin: 10% auto;
+    
+    border-radius: 10px;
+
+    
+}
+.column1{
+    width: 50%;
+    
+    border: 1px solid black;
+}
+.column2{
+    width: 50%;
+    border: 1px solid black;
+    align-content: center;
+    padding: 1rem 2rem;
+}
+.card h1{
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+.prices{
+    display: flex;
+    gap: 2.5rem;
+}
+.cost{
+    color: var(--DarkCyan);
+    
+}
+.oldcost{
+    align-self: center;
+    
+}
+.card p{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1rem;
+    opacity: 70%;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
