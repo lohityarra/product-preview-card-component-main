@@ -14,9 +14,12 @@
     box-sizing: border-box;
     /* overflow: hidden; */
 }
+html{
+    font-size: 14px;
+}
 
 body{
-    font-size: 14px;
+    
     background-color: var(---Cream);
 }
 
@@ -45,13 +48,14 @@ body{
 .card h1{
     font-family: "Fraunces";
     font-weight: 700;
-    font-size: 2.2rem;
+    font-size: 2.2em;
 }
 .prices{
     display: flex;
-    gap: 2.5rem;
+    gap: 2.5em;
 }
 .cost{
+    font-size: 2.2em;
     color: var(--DarkCyan);
     
 }
@@ -86,6 +90,9 @@ button{
     
     border-radius: 10px;
 
+}
+button :hover{
+    background-color: var(--GrayishBlue);
 }
 
 
