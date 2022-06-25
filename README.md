@@ -51,7 +51,7 @@ I need to structure my working steps properly next got confused with rem and ems
 
 ### Continued development
 
-I need to completly change the sizes so as to make it responsive.
+I need to completly change the sizes so as to make it responsive. There is a problem with the text overflowing when it is scaled down. The old price and the text specifically overflow;
 
 
 
