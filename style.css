@@ -47,19 +47,21 @@ img{
     width: 50%;
     /* border: 1px solid black; */
     align-content: center;
-    padding: 1rem 2rem;
+    padding: 1em 2em;
 }
-.card h1{
+.heading{
     font-family: "Fraunces";
     font-weight: 700;
     font-size: 2.2em;
 }
 .prices{
     display: flex;
-    gap: 2.5em;
+    gap: 10%;
 }
 .cost{
-    font-size: 2.2em;
+    font-family: "Fraunces";
+    font-weight: 700;
+    /* font-size: 2.2em; */
     color: var(--DarkCyan);
     
 }
@@ -83,16 +85,17 @@ img{
 
 button{
     
+    justify-self: flex-end;
     align-self: center;
     background-color: var(--DarkCyan);
     color:var(--White);
-    font-size: 1rem;
+    font-size: 1em;
     border: 0;
     
-    padding: 1rem 5rem;
-    margin: 2rem auto 1rem auto;
+    padding: 5% 30%;
+    margin: 2em auto 1em auto;
     
-    border-radius: 10px;
+    border-radius: 1.2em;
 
 }
 .button :hover{
