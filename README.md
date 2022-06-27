@@ -48,12 +48,14 @@ Users should be able to:
 
 I need to structure my working steps properly next got confused with rem and ems and made the website only working with desktop screen sizes.
 
+Update: Now it's working fine .
+
 
 ### Continued development
 
-I need to completly change the sizes so as to make it responsive. There is a problem with the text overflowing when it is scaled down. The old price and the text specifically overflow;
+I need to completly change the sizes so as to make it responsive. There is a problem with the text overflowing when it is scaled down. The old price and the text specifically overflow.
 
-
+Update : Everything is taken care of!
 
 ## Author
 
