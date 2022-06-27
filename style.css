@@ -95,7 +95,7 @@ button{
     background-color: var(--GrayishBlue);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
     .card{
         flex-direction: column;
         height: 900px;    
