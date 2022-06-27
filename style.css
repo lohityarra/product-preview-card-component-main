@@ -63,6 +63,7 @@ img{
 }
 .oldcost{
     align-self: center;
+    text-decoration: line-through;
     
 }
 .card p{
